@@ -1,6 +1,6 @@
 <script lang="ts">
   export default {
-    name: 'EnbwButton',
+    name: 'DekpButton',
     inheritAttrs: false,
     customOptions: {}
   }

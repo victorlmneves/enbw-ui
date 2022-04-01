@@ -1,9 +1,9 @@
-import EnbwButton from './EnbwButton/EnbwButton.vue'
-import EnbwInput from './EnbwInput/EnbwInput.vue'
-import EnbwTextarea from './EnbwTextarea/EnbwTextarea.vue'
+import DekpButton from './DekpButton/DekpButton.vue'
+import DekpInput from './DekpInput/DekpInput.vue'
+import DekpTextarea from './DekpTextarea/DekpTextarea.vue'
 
 export default {
-    EnbwButton,
-    EnbwInput,
-    EnbwTextarea
+    DekpButton,
+    DekpInput,
+    DekpTextarea
 }

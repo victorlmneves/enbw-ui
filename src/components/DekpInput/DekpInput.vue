@@ -1,6 +1,6 @@
 <script lang="ts">
   export default {
-    name: 'EnbwTextarea',
+    name: 'DekpInput',
     inheritAttrs: false,
     customOptions: {}
   }
@@ -10,7 +10,7 @@
 import { ref } from 'vue';
 
 const disabled = ref(false);
-const textareaValue = ref('');
+const inputValue = ref('');
 
 const onInput = (e: Event) => {
   console.log('input', e);
@@ -30,27 +30,28 @@ const onKeyUp = (e: KeyboardEvent) => {
 </script>
 
 <template>
-  <textarea
-    class="base-textarea"
-    :class="{ 'base-textarea--disabled': disabled }"
+  <input
+    class="base-input"
+    :class="{ 'base-input--disabled': disabled }"
     :disabled="disabled"
-    v-model="textareaValue"
+    v-model="inputValue"
     @input="onInput"
     @focus="onFocus"
     @blur="onBlur"
     @keyup="onKeyUp"
-></textarea>
+  />
 </template>
 
 <style scoped>
-.base-textarea {
+.base-input {
   padding: 0.5rem 1rem;
-  border-bottom: 1px solid #ccc;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   background: #fff;
   color: #000;
 }
 
-.base-textarea--disabled {
+.base-input--disabled {
   background: #eee;
   color: #aaa;
 }
