@@ -1,9 +1,9 @@
-import BaseButton from './BaseButton/BaseButton.vue'
-import BaseInput from './BaseInput/BaseInput.vue'
-import BaseTextarea from './BaseTextarea/BaseTextarea.vue'
+import EnbwButton from './EnbwButton/EnbwButton.vue'
+import EnbwInput from './EnbwInput/EnbwInput.vue'
+import EnbwTextarea from './EnbwTextarea/EnbwTextarea.vue'
 
 export default {
-    BaseButton,
-    BaseInput,
-    BaseTextarea
+    EnbwButton,
+    EnbwInput,
+    EnbwTextarea
 }
