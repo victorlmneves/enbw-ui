@@ -66,3 +66,5 @@ const ariaText = computed(() => {
         {{ text }}
     </button>
 </template>
+
+<style scoped src="@css-components/base-button/index.scss" lang="scss" />
