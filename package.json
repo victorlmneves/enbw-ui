@@ -33,7 +33,7 @@
     "sass": "^1.49.10",
     "style-dictionary": "^3.7.0",
     "typescript": "^4.5.4",
-    "vite": "^2.8.0",
+    "vite": "^2.9.13",
     "vue-tsc": "^0.29.8"
   },
   "repository": {
